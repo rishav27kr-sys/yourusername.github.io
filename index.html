@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YouTube Growth Guide</title>
+
+<style>
+:root {
+  --primary: #ff0033;
+  --secondary: #00e5ff;
+  --dark: #0b0f19;
+  --card: rgba(255,255,255,0.08);
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle at top, #1a2a3a, #05070c);
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+header {
+  padding: 70px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #ff0033, #ff4d6d);
+}
+
+header h1 {
+  font-size: 2.6rem;
+  margin: 0;
+}
+
+header p {
+  max-width: 700px;
+  margin: 15px auto 0;
+  font-size: 1.1rem;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(12px);
+  padding: 12px;
+  text-align: center;
+  z-index: 10;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 14px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: var(--secondary);
+}
+
+section {
+  max-width: 1100px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2rem;
+}
+
+.hero p {
+  max-width: 750px;
+  margin: 15px auto;
+  color: #dcdcdc;
+}
+
+.btn {
+  background: var(--primary);
+  border: none;
+  padding: 14px 34px;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 40px;
+  cursor: pointer;
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #e6002e;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+  gap: 25px;
+}
+
+.card {
+  background: var(--card);
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: var(--secondary);
+}
+
+.checklist li {
+  margin-bottom: 10px;
+}
+
+.videos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+  gap: 20px;
+}
+
+iframe {
+  width: 100%;
+  height: 200px;
+  border-radius: 14px;
+  border: none;
+}
+
+.newsletter input {
+  padding: 12px;
+  width: 260px;
+  border-radius: 25px;
+  border: none;
+  margin-right: 10px;
+}
+
+.newsletter button {
+  padding: 12px 25px;
+  border-radius: 25px;
+  border: none;
+  background: var(--secondary);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  background: rgba(0,0,0,0.6);
+  text-align: center;
+  padding: 30px;
+  font-size: 0.9rem;
+  color: #bdbdbd;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>YouTube Growth Guide</h1>
+  <p>
+    Helping beginner YouTubers understand uploads, audience interest, and real channel growth  
+    <br>
+    <strong>Beginners ke liye simple aur practical guidance</strong>
+  </p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#learn">Learn</a>
+  <a href="#checklist">Checklist</a>
+  <a href="#videos">Videos</a>
+  <a href="#free">Free PDF</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+  <h2>Grow Smart on YouTube, Not Random</h2>
+  <p>
+    Agar aap beginner ho aur samajhna chahte ho ki video kaise upload kare,
+    audience ka interest kaise samjhe, aur channel kaise grow kare,
+    then this channel is for you.
+  </p>
+
+  <button class="btn"
+    onclick="window.open('https://www.youtube.com/@YourChannelName','_blank')">
+    Subscribe on YouTube
+  </button>
+</section>
+
+<section id="about">
+  <h2>About This Channel</h2>
+  <p>
+    Most beginner creators fail because they follow wrong advice.
+    This channel focuses on clarity, consistency, and correct strategy
+    so new YouTubers can grow step by step without confusion.
+  </p>
+</section>
+
+<section id="learn">
+  <h2>What You’ll Learn</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>📤 Upload Strategy</h3>
+      <p>Title, thumbnail, description, tags, timing and mistakes to avoid.</p>
+    </div>
+
+    <div class="card">
+      <h3>🎯 Audience Interest</h3>
+      <p>How to know what people actually want to watch.</p>
+    </div>
+
+    <div class="card">
+      <h3>📈 Channel Growth</h3>
+      <p>Organic growth tips that work for small channels.</p>
+    </div>
+  </div>
+</section>
+
+<section id="checklist">
+  <h2>Beginner Growth Checklist</h2>
+
+  <ul class="checklist">
+    <li>Clear niche decide karo</li>
+    <li>Audience ke problems samjho</li>
+    <li>Consistent upload schedule</li>
+    <li>CTR aur retention improve karo</li>
+    <li>Patience + analysis = growth</li>
+  </ul>
+</section>
+
+<section id="videos">
+  <h2>Latest Videos</h2>
+
+  <!-- Replace CHANNEL_ID -->
+  <div class="videos">
+    <iframe src="https://www.youtube.com/embed?listType=playlist&list=UUCHANNEL_ID"></iframe>
+  </div>
+</section>
+
+<section id="free">
+  <h2>Free Beginner PDF</h2>
+  <p>
+    Download a free beginner YouTube checklist to avoid common mistakes.
+  </p>
+  <button class="btn">Download Free PDF</button>
+</section>
+
+<section id="contact">
+  <h2>Newsletter & Contact</h2>
+
+  <div class="newsletter">
+    <input type="email" placeholder="Enter your email">
+    <button>Join</button>
+  </div>
+
+  <p style="margin-top:20px">
+    Email: yourname@gmail.com<br>
+    Instagram: @yourhandle
+  </p>
+</section>
+
+<footer>
+  © 2026 YouTube Growth Guide | Built for beginner creators
+</footer>
+
+</body>
+</html>
